@@ -1,19 +1,7 @@
-## My Project
-
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+## Amazon Connect Contact lens action item reminders
 
 
-## Deployment 
-
-This is a project for TypeScript development with CDK.
-
-
-### Steps
+### Deployment Steps
 
 1. Install CDK and run the CDK bootstrap command if this is the first time running CDK in an AWS Account.
 ```
