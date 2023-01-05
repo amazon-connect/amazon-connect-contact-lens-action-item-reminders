@@ -1,6 +1,6 @@
 ## Amazon Connect Contact lens action item reminders
 
-
+This repo is attached to the blog ["Create action item reminders with Amazon Connect Tasks and Contact Lens for Amazon Connect"](https://aws.amazon.com/blogs/contact-center/create-action-item-reminders-with-amazon-connect-tasks-and-contact-lens-for-amazon-connect/). Head there to get the full set of steps for using this code.
 ### Deployment Steps
 
 1. Install CDK and run the CDK bootstrap command if this is the first time running CDK in an AWS Account.

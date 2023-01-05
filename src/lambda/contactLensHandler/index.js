@@ -12,8 +12,8 @@ const {
 exports.handler = async (event) => {
 
     const s3 = JSON.parse(event.Records[0].Sns.Message).Records[0].s3;
-    const bucket = s3.bucket.name;
-    const key = s3.object.key;
+    const bucket = unescape(s3.bucket.name);
+    const key = unescape(s3.object.key);
     const resp = await s3Client.getObject({
         Bucket: bucket,
         Key: key,
